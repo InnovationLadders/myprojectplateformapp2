@@ -23,7 +23,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace "com.sky.propertyksa"
+    namespace "com.myproject.app"
     compileSdk 34
 
     compileOptions {
@@ -40,7 +40,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.sky.propertyksa"
+        applicationId "com.myproject.app"
         minSdk 21
         targetSdk 34
         versionCode flutterVersionCode.toInteger()
